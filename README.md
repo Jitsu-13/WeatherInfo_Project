@@ -55,10 +55,10 @@ spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
 Use this link to run it on browser.
 ```swagger
 [http://localhost:8080/swagger-ui](http://localhost:8080/swagger-ui/)
+```
+
 ![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/d695f537-7614-4714-a649-98ae6df4e1cc)
 ![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/f49a8fa6-dac3-4bbc-b818-a736be55b4b5)
-
-```
 ### Postman
 ![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/8f29f91b-f4b2-4527-9ffb-859091308b6a)
 ![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/bc3a402b-eb5b-4c17-b466-ad57f5414887)
