@@ -1,19 +1,3 @@
-# WeatherProject
-
-![Logo](https://user-images.githubusercontent.com/104360276/221820586-f17ee6ff-a131-4ea1-91e2-849fab5b250d.jpeg)
-
-This is a basic weather project where we pass a pincode and the date and it will return the weather details like rain,clouds,temp,min_temp,max_temp,feel-Like,sunset,sunrise,etc-etc.
-there is only one user : user who can search weather for particular location.
-
-## ER Diagram
-
-![ER diagrame](https://user-images.githubusercontent.com/104360276/221812995-4469cb98-9005-42b3-84c9-2cd5f1c99a63.png)
-/view)
-
-
-## Features
- - user can search weather details for particular location and particular date, project will return weather details for that locations
-
 
 ## API Reference
 
@@ -43,27 +27,7 @@ it takes pincode as parameter and return pincode details..........
 
 it takes lngotude and lattitude and unixtime as parameter and return JsonObject of weather details...............
 
-
-
-## Tech Stack
-
-- Core Java
-- Spring Boot
-- Hibernate
-- MySQL (RDBMS)
-- Sql
-- Maven
-- Swagger UI
-- postman
-- Intellij Idea
-- Giuhub
-
-
 ## Deployment
-
-To deploy this project on localhost paste this below code in application.properties file in the 
-resources and update according to your database name, username and password of your MySQL database.
-
 ```properties
  #changing the server port
 server.port=8080
@@ -92,10 +56,8 @@ Use this link to run it on browser.
 ```swagger
 http://localhost:8080/swagger-ui
 ```
-
-## Authors
-
-- [Pradeep Singroul (@pradeepsingroul) ](https://github.com/pradeepsingroul)
-
+### Postman
+![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/8f29f91b-f4b2-4527-9ffb-859091308b6a)
+![image](https://github.com/Jitsu-13/WeatherInfo_Project/assets/107523890/bc3a402b-eb5b-4c17-b466-ad57f5414887)
 
 # WeatherInfo_Project
