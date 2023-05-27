@@ -24,8 +24,8 @@ import java.time.LocalDate;
 public class Location {
 
     @Id
-    private Integer pinCode;
-    private BigDecimal LattiTude;
+    private Integer pincode;
+    private BigDecimal lattitude;
     private BigDecimal longitude;
     private String detail;
     private String url;

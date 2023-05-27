@@ -35,10 +35,6 @@ public class Weather {
 
     private Integer WindDirection;
 
-    private Integer sunrise;
-
-    private Integer sunset;
-
     private String country;
 
     private String url;

@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class WeatherDetailsForPincodeApplication {
+public class WeatherProjectApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(WeatherDetailsForPincodeApplication.class, args);
+        SpringApplication.run(WeatherProjectApplication.class, args);
     }
 
 }

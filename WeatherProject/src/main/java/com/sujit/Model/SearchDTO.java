@@ -19,7 +19,7 @@ public class SearchDTO {
 
 
     private Integer pincode;
-    @Past(message = "date must be past")
+    @Past(message = "Entered date should be in past")
     private LocalDate dateStamp;
 
 
