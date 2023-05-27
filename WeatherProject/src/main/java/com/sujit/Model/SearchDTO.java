@@ -1,9 +1,7 @@
-package com.FrightBox.Model;
+package com.sujit.Model;
 
 
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.FrightBox.Model;
+package com.sujit.Model;
 
 
 
@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.json.JSONObject;
 
 import java.math.BigDecimal;
 

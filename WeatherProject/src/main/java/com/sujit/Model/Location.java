@@ -1,4 +1,4 @@
-package com.FrightBox.Model;
+package com.sujit.Model;
 
 
 import javax.persistence.CascadeType;
