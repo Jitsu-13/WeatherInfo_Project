@@ -1,7 +1,7 @@
-package com.sujit.ApiFetch;
+package com.sujit.api;
 
-import com.sujit.Model.Weather;
-import com.sujit.Model.Location;
+import com.sujit.model.Weather;
+import com.sujit.model.Location;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import okhttp3.OkHttpClient;
@@ -40,7 +40,6 @@ public class PinCodeDetail {
         Location weatherLocation = new Location();
         weatherLocation.setPincode(pincode);
         weatherLocation.setDetail((String) pincodeDetails.get("formatted"));
-        weatherLocation.setUrl((String) pincodeDetails.getJSONObject("annotations").getJSONObject("OSM").get("url"));
         weatherLocation.setLongitude((BigDecimal) pincodeDetails.getJSONObject("geometry").get("lng"));
         weatherLocation.setLattitude((BigDecimal) pincodeDetails.getJSONObject("geometry").get("lat"));
         weatherLocation.setDateStamp(dateStamp);

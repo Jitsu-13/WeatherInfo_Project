@@ -1,4 +1,4 @@
-package com.sujit.Model;
+package com.sujit.model;
 
 
 
@@ -37,7 +37,6 @@ public class Weather {
 
     private String country;
 
-    private String url;
 
 
 

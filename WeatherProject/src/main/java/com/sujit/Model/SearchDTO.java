@@ -1,4 +1,4 @@
-package com.sujit.Model;
+package com.sujit.model;
 
 
 

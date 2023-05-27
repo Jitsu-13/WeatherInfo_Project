@@ -1,7 +1,7 @@
-package com.sujit.Repository;
+package com.sujit.repository;
 
 
-import com.sujit.Model.Location;
+import com.sujit.model.Location;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

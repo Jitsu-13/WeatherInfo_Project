@@ -1,4 +1,4 @@
-package com.sujit.Model;
+package com.sujit.model;
 
 
 import javax.persistence.CascadeType;
@@ -28,7 +28,6 @@ public class Location {
     private BigDecimal lattitude;
     private BigDecimal longitude;
     private String detail;
-    private String url;
     @OneToOne(cascade = CascadeType.ALL)
     private Weather WeatherPincode;
 

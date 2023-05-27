@@ -1,7 +1,7 @@
-package com.sujit.Repository;
+package com.sujit.repository;
 
 
-import com.sujit.Model.Weather;
+import com.sujit.model.Weather;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
